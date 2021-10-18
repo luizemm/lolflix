@@ -9,9 +9,12 @@
     box-sizing: border-box; /* Propriedade que define o comportamento de altura e largura de uma tag. O valor border-box faz com que uma div, por exemplo, mantenha o tamanho de acordo com os valores especificados de altura e largura, diminuindo o tamanho dos conteúdos filhos, em vez de aumentar e manter o tamanho original dos filhos.*/
 }
 
+/* Elementos base */
+
 body{
     background-color: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container{
@@ -35,4 +38,16 @@ header nav a{
 
 header nav a:hover{
     color: #fff;
+}
+
+/* Campeao em destaque */
+
+.campeao-destaque{
+    font-size: 16px; /* Tamanho de fonte padrão do html */
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url('/img/Vex.jpg');
+
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
