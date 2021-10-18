@@ -1,0 +1,38 @@
+:root { /* Raiz do css. Útil para declarar variáveis */
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Propriedade que define o comportamento de altura e largura de uma tag. O valor border-box faz com que uma div, por exemplo, mantenha o tamanho de acordo com os valores especificados de altura e largura, diminuindo o tamanho dos conteúdos filhos, em vez de aumentar e manter o tamanho original dos filhos.*/
+}
+
+body{
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin: 0 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
