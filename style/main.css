@@ -50,4 +50,46 @@ header nav a:hover{
     background-size: cover;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.campeao-destaque .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.nome-campeao {
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.campeao-destaque .container{
+    width: 40%;
 }
