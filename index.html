@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
+    
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" type="text/css" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" type="text/css" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="style/owl/owl.theme.default.min.css">
+
     <title>LOLFLIX</title>
 </head>
 <body>
@@ -26,16 +35,35 @@
     <main>
         <div class="campeao-destaque">
             <div class="container">
-                <h3 class="nome-campeao">VEX</h3>
-                <p class="descricao">Em meio à escuridão das Ilhas das Sombras, uma solitária yordle se move com pesar, abrindo caminho pela névoa espectral, satisfeita em viver nas trevas. Com uma poderosa sombra no seu encalço e uma fonte inesgotável de mazelas nas costas, Vex vive num mundinho de agonia que ela mesma criou, longe da alegria repulsiva do mundo dos "normais".</p>
+                <h3 class="nome-campeao">RENATA GLASC</h3>
+                <p class="descricao">Renata Glasc emergiu das cinzas de seu antigo lar com nada além da pesquisa alquímica de seus pais e seu próprio nome.</p>
                 <button role="button" class="botao">
                     <i class="fas fa-info-circle"></i>
                     VER HABILIDADES
                 </button>
             </div>
         </div>
+        <div class="carrosel-campeoes">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img class="box-campeao" src="img/aatrox_mini.jpg"></div>
+                <div class="item"><img class="box-campeao" src="img/fiora_mini.jpg"></div>
+                <div class="item"><img class="box-campeao" src="img/heimerdinger_mini.jpg"></div>
+                <div class="item"><img class="box-campeao" src="img/kaisa_mini.jpg"></div>
+                <div class="item"><img class="box-campeao" src="img/karthus_mini.jpg"></div>
+                <div class="item"><img class="box-campeao" src="img/katarina_mini.jpg"></div>
+                <div class="item"><img class="box-campeao" src="img/lucian_mini.jpg"></div>
+                <div class="item"><img class="box-campeao" src="img/ornn_mini.jpg"></div>
+                <div class="item"><img class="box-campeao" src="img/renata_mini.jpg"></div>
+                <div class="item"><img class="box-campeao" src="img/thresh_mini.jpg"></div>
+                <div class="item"><img class="box-campeao" src="img/zed_mini.jpg"></div>
+                <div class="item"><img class="box-campeao" src="img/poppy_mini.jpg"></div>
+            </div>
+        </div>
     </main>
 
     <script src="https://kit.fontawesome.com/750ca96713.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.js"></script>
+    <script src="js/owl/setup.js"></script>
 </body>
 </html>

@@ -44,8 +44,7 @@ header nav a:hover{
 
 .campeao-destaque{
     font-size: 16px; /* Tamanho de fonte padrão do html */
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url('/img/Vex.jpg');
-
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../img/RenataGlasc.jpg");
     height: 400px;
     background-size: cover;
     display: flex;
@@ -92,4 +91,10 @@ header nav a:hover{
 
 .campeao-destaque .container{
     width: 40%;
+}
+
+.box-campeao {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
