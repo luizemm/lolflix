@@ -21,13 +21,12 @@
         <div class="container">
             <h2 class="logo">LOLFLIX</h2>
             <nav>
-                <a href="#">Todos</a>
-                <a href="#">Tanques</a>
-                <a href="#">Lutadores</a>
-                <a href="#">Assassinos</a>
-                <a href="#">Magos</a>
-                <a href="#">Atiradores</a>
-                <a href="#">Suportes</a>
+                <a href="#tanques">Tanques</a>
+                <a href="#lutadores">Lutadores</a>
+                <a href="#assassinos">Assassinos</a>
+                <a href="#magos">Magos</a>
+                <a href="#atiradores">Atiradores</a>
+                <a href="#suportes">Suportes</a>
             </nav>
         </div>
     </header>
@@ -35,7 +34,7 @@
     <main>
         <div class="campeao-destaque">
             <div class="container">
-                <h3 class="nome-campeao">RENATA GLASC</h3>
+                <h3 class="nome-campeao-destaque">RENATA GLASC</h3>
                 <p class="descricao">Renata Glasc emergiu das cinzas de seu antigo lar com nada além da pesquisa alquímica de seus pais e seu próprio nome.</p>
                 <button role="button" class="botao">
                     <i class="fas fa-info-circle"></i>
@@ -44,19 +43,251 @@
             </div>
         </div>
         <div class="carrosel-campeoes">
-            <div class="owl-carousel owl-theme">
-                <div class="item"><img class="box-campeao" src="img/aatrox_mini.jpg"></div>
-                <div class="item"><img class="box-campeao" src="img/fiora_mini.jpg"></div>
-                <div class="item"><img class="box-campeao" src="img/heimerdinger_mini.jpg"></div>
-                <div class="item"><img class="box-campeao" src="img/kaisa_mini.jpg"></div>
-                <div class="item"><img class="box-campeao" src="img/karthus_mini.jpg"></div>
-                <div class="item"><img class="box-campeao" src="img/katarina_mini.jpg"></div>
-                <div class="item"><img class="box-campeao" src="img/lucian_mini.jpg"></div>
-                <div class="item"><img class="box-campeao" src="img/ornn_mini.jpg"></div>
-                <div class="item"><img class="box-campeao" src="img/renata_mini.jpg"></div>
-                <div class="item"><img class="box-campeao" src="img/thresh_mini.jpg"></div>
-                <div class="item"><img class="box-campeao" src="img/zed_mini.jpg"></div>
-                <div class="item"><img class="box-campeao" src="img/poppy_mini.jpg"></div>
+            <div id="lutadores" class="classe-campeao">
+                <h2>Lutadores</h2>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/lutador/aatrox_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">AATROX</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/lutador/camille_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">CAMILLE</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/lutador/darius_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">DARIUS</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/lutador/fiora_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">FIORA</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/lutador/riven_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">RIVEN</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/lutador/trundle_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">TRUNDLE</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="tanques" class="classe-campeao">
+                <h2>Tanques</h2>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/tanque/chogath_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">CHO'GATH</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/tanque/mundo_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">DR. MUNDO</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/tanque/gnar_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">GNAR</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/tanque/malphite_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">MALPHITE</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/tanque/maokai_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">MAOKAI</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/tanque/ornn_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">ORNN</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="assassinos" class="classe-campeao">
+                <h2>Assassinos</h2>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/assassino/fizz_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">FIZZ</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/assassino/katarina_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">KATARINA</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/assassino/khazix_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">KHA'ZIX</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/assassino/nocturne_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">NOCTURNE</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/assassino/rengar_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">RENGAR</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/assassino/zed_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">ZED</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="magos" class="classe-campeao">
+                <h2>Magos</h2>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/mago/anivia_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">ANIVIA</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/mago/brand_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">BRAND</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/mago/heimerdinger_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">HEIMERDINGER</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/mago/karthus_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">KARTHUS</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/mago/malzahar_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">MALZAHAR</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/mago/xerath_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">XERATH</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="atiradores" class="classe-campeao">
+                <h2>Atiradores</h2>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/atirador/ezreal_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">EZREAL</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/atirador/jhin_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">JHIN</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/atirador/kaisa_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">KAI'SA</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/atirador/lucian_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">LUCIAN</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/atirador/tristana_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">TRISTANA</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/atirador/vayne_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">VAYNE</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="suportes" class="classe-campeao">
+                <h2>Suportes</h2>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/suporte/lulu_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">LULU</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/suporte/rakan_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">RAKAN</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/suporte/renata_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">RENATA GLASC</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/suporte/soraka_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">SORAKA</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/suporte/thresh_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">THRESH</h3>
+                    </div>
+                    <div class="item">
+                        <div class="overflow">
+                            <img class="imgCampeao" src="img/suporte/yummi_mini.jpg">
+                        </div>
+                        <h3 class="nome-campeao">YUMMI</h3>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

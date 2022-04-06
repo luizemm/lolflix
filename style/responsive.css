@@ -4,5 +4,27 @@
         align-items: center;
         flex-direction: column;
         justify-content: space-between;
+        text-align: center;
+    }
+
+    header {
+        margin-bottom: 10px;
+    }
+
+    .campeao-destaque .container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .campeao-destaque .container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
